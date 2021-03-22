@@ -9,21 +9,6 @@ const API = {
     API_Site : `http://api.openweathermap.org/data/2.5/weather?zip=`,
     API_Key : `&appid=af9eb8a327b47166f04ced688668508b&units=metric`
 };
- 
-// just a though
-
-/* I was think to store data in the object by loop over two arrays ,but it doesn't work
- *
- * "requiredElements opject contain all the element we will need for this project ,it's elements come from looping over two arrays using index"
- *let requiredElements = {};
- *let IDs = ["#zip","#feelings","#generate","#temp","#date","#content"];
- *let elementName = ["zipCode","feelings","ClickFunction","temperture","TodayDate","text"];
- *
- * "loop over the above two arrays to store data into the object"
- *for(let i = 0;i<IDs.length;i++) requiredElements[elementName[i]] = document.getElementById(IDs[i]);
- */
-
- // continue our code
 
  // requiredElements opject contain all the element we will need for this project by get them by there ids
  
